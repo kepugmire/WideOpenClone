@@ -1,0 +1,113 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300i,400,400i,700,700i,900|Open+Sans:300i,400,400i,600,600i,700|Oswald:300,400,500,600,700');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.top-section {
+    height: 520px;
+    width: 100%;
+    background-image: url("./img/wot-masthead-dark.jpg");
+    background-size: cover;
+    display: flex;
+}
+.menu-header {
+    height: 35px;
+    width: 100%;
+    padding: 50px 70px;
+    display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+}
+.wideopen img {
+    height: 35px;
+}
+.top-nav-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: 'lato';
+    color: white;
+}
+.top-nav-text div {
+    padding: 0 15px;
+}
+
+
+
+.second-section {
+    height: 375px;
+    width: 100%;
+    background-color: #F0F0F0;
+    display: flex;
+    text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.second-text-container {
+    font-family: 'Open Sans';
+    font-size: 25px;
+    line-height: 1.5;
+    color: #6A787C;
+    /*border: 2px solid black;*/
+}
+.second-img {
+    height: 80px;
+    width: 100%;
+    /*border: 2px solid black;*/
+}
+.second-text-caps {
+    height: 50px;
+    font-family: 'Oswald';
+    font-size: 45px;
+    color: #6A787C;
+    /*border: 2px solid black;*/
+}
+
+
+
+
+
+
+
+
+
+/*
+.hero-wrapper {
+    position: relative;
+}
+
+.hero {
+    height:100vh;
+    width: 100%;
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info-panel {
+    height:300px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, .8);
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+
+main .top-section {
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+}
+
+@media screen and (max-width: 700px) {
+    .info-panel {
+        width: 100%;
+        position: static;
+}*/
